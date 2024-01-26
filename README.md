@@ -7,8 +7,17 @@ This project pulls user requested bicycle share data from 3 cities (Chicago, New
 analyze.
 
 
-### Files used
-Include the files used
+<details>
+<summary>Files Used For Data</summary>
+
+|      | Filename          |
+|-----:|-------------------|
+|    1 | chicago.csv       |
+|    2 | new_york_city.csv |
+|    3 | washington.csv    |
+
+
+</details>
 
 ### Credits
 Thanks to Stevo for analyzing the data and providing feedback for changes to streamline the code and to the Udacity
