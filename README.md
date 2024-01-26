@@ -3,12 +3,14 @@
 ### Project Started 1/18/2024
 
 
-### Description
-Describe what your project is about and what it does
+This project pulls user requested bicycle share data from 3 cities (Chicago, New York and Washington) and formats the data outputs for the user to 
+analyze.
+
 
 ### Files used
 Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks to Stevo for analyzing the data and providing feedback for changes to streamline the code and to the Udacity
+instructors for their suggestions on how to make the data outputs more readable.
 
