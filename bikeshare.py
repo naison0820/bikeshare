@@ -10,6 +10,8 @@ MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
+def error_message():
+    print(Invalid entry, please read the directions and input a valid option from the choices)
 
 def get_filters():
     """
@@ -28,7 +30,7 @@ def get_filters():
     if city_choice.lower() in CITY_DATA:
         city = CITY_DATA[city_choice.lower()]
     else:
-        print("Sorry your response was invalid, please enter one of the selections as stated above.")
+        error_message()
 
     # Get user input for month (all, january, february, ... , june).
     month_choice = ''
@@ -38,7 +40,7 @@ def get_filters():
     if month_choice.lower() in MONTH_DATA:
         month = month_choice.lower()
     else:
-        print("Sorry but your request was invalid please input a data request that adheres to the mentioned choices")
+        error_message()
 
     # Get user input for day of week (all, monday, tuesday, ... sunday).
     day_choice = ''
@@ -48,7 +50,7 @@ def get_filters():
     if day_choice.lower() in DAY_DATA:
         day = day_choice.lower()
     else:
-        print("Sorry but your request was invalid, please input a data request that adheres to the mentioned choices")
+        error_message()
 
     print('-' * 40)
     return city, month, day
@@ -212,7 +214,7 @@ def display_raw_data(df):
         elif view_raw_data.lower() == 'no':
             return
         else:
-            print("Invalid input. Please enter 'yes' or 'no'.")
+            error_message()
 
 
 # Allow user to loop back to start of program to pull new data or close program.
