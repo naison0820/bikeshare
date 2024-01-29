@@ -11,7 +11,7 @@ MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
 def error_message():
-    print(Invalid entry, please read the directions and input a valid option from the choices)
+    print("Invalid entry, please read the directions and input a valid option from the choices provided")
 
 def get_filters():
     """
