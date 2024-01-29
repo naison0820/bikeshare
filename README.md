@@ -4,9 +4,11 @@
 
 ### <ins>Project Started 1/18/2024
 
+WARNING: This was a classroom project with data files provided by the school. The bikeshare.py program will not run without the 3 .csv files.
+
 
 This project pulls user requested bicycle share data from 3 cities (Chicago, New York and Washington) and formats the data outputs for the user to 
-analyze.
+analyze. 
 
 
 <details>
